@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "a0cb6da50573e8031a8c272310d12aee2c507c1e3fa4ac77f2016a8868501a69290babac7dae9f23cf139ea5b922d6c310;75ba31b8d1733c9b426da0c1",
+      "a3e525d99f74d76cffbbaa62c0cec672c6b218dc6664895fbe613d615c3e9a62d06f5dd42002aee61a60b16be1a06b92eb;77744e73f25c866e27f4c6e2",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -124,7 +124,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: 100MB
      */
-    streamMaxSize: 0,
+    streamMaxSize: 104857600,
 
     /**
      * Maximum file size that can be downloaded via api routes
@@ -172,9 +172,9 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "middie-movies",
+    siteName: "next-gdrive-index",
     siteNameTemplate: "%s - %t",
-    siteDescription: "Movies",
+    siteDescription: "Middie Movies",
     siteIcon: "/logo.svg",
     siteAuthor: "Aze",
     favIcon: "/favicon.png",
