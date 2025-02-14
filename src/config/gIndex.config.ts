@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "a3e525d99f74d76cffbbaa62c0cec672c6b218dc6664895fbe613d615c3e9a62d06f5dd42002aee61a60b16be1a06b92eb;77744e73f25c866e27f4c6e2",
+      "b87bd78df161f867bc35571fd3b6c2ca;cdb5aea3bea750ed4542718d",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -172,7 +172,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "next-gdrive-index",
+    siteName: "middie-movies",
     siteNameTemplate: "%s - %t",
     siteDescription: "Middie Movies",
     siteIcon: "/logo.svg",
